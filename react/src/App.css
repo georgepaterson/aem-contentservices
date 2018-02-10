@@ -1,0 +1,151 @@
+.Page {
+  border-collapse: collapse;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/** App **/
+
+.App {
+  border-collapse: collapse;
+  display: inline-block;
+  margin-right: 1rem;
+  max-width: 800px;
+  vertical-align: top;
+}
+
+.App .Header-wrapper {
+  min-width: 800px;
+}
+
+.App .Header {
+  background-color: #181818;
+  padding: 1rem;
+  margin-bottom: .5rem;
+}
+
+.App .Header .Logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.App .Header .Title {
+  color: white;
+  display: inline-block;
+  margin: 0 0 0 2rem;
+  font-size: 4rem;
+  vertical-align: middle;
+}
+
+.App .Intro {
+  padding: 1em;
+  margin-bottom: .5rem;
+}
+
+.App a {
+  color: #ed1c24;
+}
+
+.App button:hover {
+  cursor: pointer;
+}
+
+/* Inline Instructions */
+
+.App .InitButton-wrapper {
+ text-align: center;
+}
+
+.App .InitButton {
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin: 0 auto;
+  display: inline-block;
+  background-color: transparent;
+  border: dashed 2px #ccc;
+  color: #999;
+  border-radius: 3px;
+}
+
+.App .InitButton-host {
+  margin-bottom: 1rem;
+  color: #999;
+  font-family: monospace;
+}
+
+.App .InitButton-host input[type=text] {
+  padding: .5rem;
+  font-family: monospace;
+}
+
+.InlineInstructions {
+  color: #666;
+  display: none;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+
+/** Instructions **/
+
+.Instructions {
+  border-collapse: collapse;
+  border: dashed 1px #ccc;
+  color: #666;
+  display: inline-block;
+  margin-top: 1rem;
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.Instructions h2 {
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Instructions code {
+  display: block;
+  border: dotted 1px #999;
+  padding: .25rem 1rem;
+  margin: .5rem 0;
+}
+
+.Instructions img.code {
+  border: dotted 1px #999;
+  width: 100%;
+}
+
+.Instructions-codeImage {
+  display: block;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-style: italic;
+}
+
+
+/** Step 1 **/
+
+.Step-1 .Logo {
+  border: dashed 1px white;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.Step-1 .Title {
+  border: dashed 1px white;
+  min-height: 100px;
+  min-width: 600px;
+}
+
+.Step-1 .Intro {
+  border: dashed 1px #ccc;
+  height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.Step-2 .InlineInstructions {
+  display: block;
+  border: dashed 1px #ccc;
+  text-align: center;
+}

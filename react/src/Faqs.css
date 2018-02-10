@@ -1,0 +1,46 @@
+.Categories ul {
+  background-color: #181818;
+  margin: 0;
+  padding: 0;
+}
+.Categories ul li {
+  margin: 0 1rem;
+  padding: 0;
+  display: inline-block;
+}
+
+.Categories button {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  padding: 1rem;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: solid 2px black;
+
+}
+.Categories button:hover {
+  color: #ed1c24;
+  border-bottom: solid 2px #ed1c24;
+}
+
+.Categories button.active {
+  color: #ed1c24;
+  border-bottom: solid 2px #ed1c24;
+}
+
+.Faq {
+  padding-top: 1rem;
+  margin-top: 1rem;
+  border-top: solid 1px #ccc;
+}
+
+.Faq h3 {
+  color: #ed1c24;
+}
+
+.Faq h3 label {
+  text-transform: uppercase;
+  color: black;
+}
